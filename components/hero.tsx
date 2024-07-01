@@ -5,7 +5,7 @@ export const Hero = () => {
   return (
     <div className="w-full bg-gradient-light">
       <Navbar />
-      <div className="w-full flex flex-col md:p-24 gap-8 items-center text-start justify-center">
+      <div className="w-full flex flex-col p-10 md:p-24 gap-8 items-center text-start justify-center">
         <h1 className="text-4xl font-bold">
           <span className="text-primary">Echo </span>
           is Social DePIN for AI

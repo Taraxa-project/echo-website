@@ -4,7 +4,7 @@ import Link from "next/link";
 export const Navbar = () => {
   return (
     <div className="navbar bg-transparent w-full flex justify-between p-10 px-24">
-      <div className="navbar-start">
+      <div>
         <Link href={"/"}>
           <Image
             src="/echo-logo.svg"
@@ -15,7 +15,7 @@ export const Navbar = () => {
           />
         </Link>
       </div>
-      <div className="hidden lg:flex">
+      <div className="hidden md:flex">
         <ul className="menu menu-horizontal px-1">
           <li>
             <a href="#" target="_blank">
