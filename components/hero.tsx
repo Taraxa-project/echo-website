@@ -3,7 +3,7 @@ import { Stats } from "./stats";
 
 export const Hero = () => {
   return (
-    <div className="w-full bg-gradient-to-b from-[#13151f] to-[#0c0c13]">
+    <div className="w-full bg-gradient-light">
       <Navbar />
       <div className="w-full flex flex-col md:p-24 gap-8 items-center text-start justify-center">
         <h1 className="text-4xl font-bold">

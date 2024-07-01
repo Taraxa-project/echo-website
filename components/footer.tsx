@@ -3,7 +3,7 @@ import Image from "next/image";
 
 export const Footer = () => {
   return (
-    <footer className="footer bg-gradient-to-b from-[#0c0c13] to-[#13151f] text-base-content p-10 px-24">
+    <footer className="footer bg-[#13151f] text-base-content p-10 px-24">
       <aside>
         <Link href={"/"}>
           <Image
