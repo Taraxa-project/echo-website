@@ -25,7 +25,7 @@ export const Feature = ({
     ? "flex-col md:flex-row"
     : "flex-col-reverse md:flex-row-reverse";
   return (
-    <div className={`flex ${contentClass} items-center justify-center gap-10`}>
+    <div className={`flex ${contentClass} items-center justify-center gap-20`}>
       <div className="p-5">
         <Image
           src={imageSrc}
